@@ -9,9 +9,8 @@ metadata:
     app.kubernetes.io/name: devfile-sample-go-basic-pipe-2z1v
     app.kubernetes.io/part-of: pt-app-500
   name: devfile-sample-go-basic-pipe-2z1v
-  namespace: lpardo-tenant
 spec:
-  replicas: 1
+  replicas: 0
   revisionHistoryLimit: 0
   selector:
     matchLabels:
